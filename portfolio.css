@@ -487,13 +487,13 @@ textarea {
     padding: 25px;
 }
 
+
 .image-frame {
     padding: 17px ;
     position: relative;
     width: 83%;
     border: 3px solid #2d9dff;
     border-radius: 25px;
-    /* transform: rotate(2deg); */
     overflow: hidden;
     box-shadow:
         0 0 20px rgba(0, 140, 255, 0.25),
@@ -520,7 +520,6 @@ textarea {
     transform:  scale(1.08);
     transform-origin: center;
 }
-
 
 /* DECORATIVE TEXT */
 
@@ -1273,7 +1272,7 @@ textarea {
 
 .whatsapp-box:hover {
     border-color: var(--primary);
-    box-shadow: 0 12px 35px rgba(37, 211, 102, 0.12);
+    box-shadow: 0 12px 35px rgba(38, 117, 185, 0.8);
     transform: translateY(-5px);
 }
 
@@ -1284,7 +1283,7 @@ textarea {
     border-radius: 50%;
     margin: 0 auto 20px;
     border: 3px solid var(--primary);
-    box-shadow: 0 0 25px rgba(37, 211, 102, 0.25);
+    box-shadow: 0 0 25px rgba(38, 117, 185, 0.8);
 }
 
 .whatsapp-box h3 {
@@ -1312,7 +1311,7 @@ textarea {
     font-size: 14px;
     font-weight: 600;
     transition: var(--transition);
-    box-shadow: 0 5px 20px rgba(37, 211, 102, 0.20);
+    box-shadow: 0 5px 20px rgba(38, 117, 185, 0.8);
 }
 
 .whatsapp-btn i {
@@ -1322,7 +1321,7 @@ textarea {
 .whatsapp-btn:hover {
     background: #0075d6;
     transform: translateY(-3px);
-    box-shadow: 0 8px 28px rgba(37, 211, 102, 0.35);
+    box-shadow: 0 8px 28px rgba(9, 34, 56, 0.35);
 }
 
 /* ================= MOBILE MENU ================= */
@@ -1422,6 +1421,7 @@ textarea {
 
     .decorative-text {
         right: 0;
+        display: none;
     }
 
     .about-content {
@@ -1448,6 +1448,10 @@ textarea {
 
     .contact-content {
         grid-template-columns: 1fr;
+    }
+    .image-frame {
+        border-radius: 16px;
+        display: none;
     }
 
 }
@@ -1536,6 +1540,7 @@ textarea {
 
     .image-frame {
         border-radius: 16px;
+        display: none;
     }
 
     .hero-image {
